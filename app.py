@@ -8,7 +8,7 @@ st.header('Wholesale customer data')
 
 
 
-data=pd.read_csv('/workspaces/wholesale_Customer_data/mentornow/Wholesale_customers_data.csv')
+data=pd.read_csv('Wholesale_customers_data.csv')
 with st. expander('show data'):
     st.dataframe(data)
 
